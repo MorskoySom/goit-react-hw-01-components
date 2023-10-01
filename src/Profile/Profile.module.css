@@ -1,0 +1,38 @@
+.container{
+    width: 600px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.profile{
+     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    margin-top: 35px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: aqua;
+}
+.titleName{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.stats {
+    display: flex; 
+    justify-content: space-around;  
+    background-color: rgba(0, 0, 0, 0.2);    
+       
+}
+.statsItem {
+    display: flex;
+    flex-direction: column;    
+}
+.label{
+    color: rgba(0, 0, 0, 0.6);
+}
+.quantity {
+    font-size: 18px;
+    font-weight: 700;
+}
