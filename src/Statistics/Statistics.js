@@ -16,6 +16,3 @@ export const Statistics = ({ title, stats }) => {
     </div>
     );
 }
-
-// { title && <h2 className={style.title}>{title}</h2> }
-{/* <h2 className={style.title}>{title ? `${title}` : ``}</h2> */ }
